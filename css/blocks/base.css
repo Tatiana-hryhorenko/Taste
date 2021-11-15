@@ -27,7 +27,17 @@ section {
     padding: 50px 10%;
 }
 
+body.active {
+    --bg-color: #1e1c2a;
+    --text-color: #fff;
+}
+
 body {
     color: var(--text-color);
     background: var(--bg-color);
+}
+
+#darkmode {
+    font-size: 25px;
+    cursor: pointer;
 }
