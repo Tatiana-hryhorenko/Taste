@@ -1,0 +1,14 @@
+.connect {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.connect__text span {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.connect__text h2 {
+    font-size: var(--h2-font);
+}
