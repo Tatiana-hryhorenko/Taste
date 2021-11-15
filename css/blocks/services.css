@@ -1,0 +1,20 @@
+/* Services */
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.s__box {
+    text-align: center;
+}
+
+.s__box img {
+    width: 60px;
+}
+
+.s__box h3 {
+    margin: 5px 0 10px;
+}
